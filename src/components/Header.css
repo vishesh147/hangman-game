@@ -1,0 +1,8 @@
+.header{
+    grid-column: 1;
+    grid-row: 1;
+    color: aliceblue;
+    font-family: Tahoma;
+    margin-left: 30px;
+    margin-top: 20px;
+}

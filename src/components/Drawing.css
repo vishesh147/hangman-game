@@ -1,0 +1,62 @@
+.hm {
+   stroke: rgb(240, 240, 240) 
+}
+
+.rod {
+   stroke-linejoin: round;
+   stroke-linecap: round;
+   stroke-width: 10px;
+}
+
+ .fhead, .fbody{
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 7px;
+    fill-opacity: 0;
+ }
+
+ .rope{
+   stroke-linejoin: round;
+   stroke-linecap: round;
+   stroke-width: 7px;
+   fill-opacity: 0;
+}
+
+ .ffoot{
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 4px;
+
+ }
+
+ .svgcanvas {
+    box-sizing: border-box;
+    /*border: 20px solid;
+    border-color: rgb(150, 60, 0);*/
+    grid-column: 2;
+    grid-row: 1/span 3;
+    background-color: rgb(0, 49, 30);
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 100%;
+ }
+
+ .eye{
+    font-family:Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    fill: rgb(240, 240, 240);
+ }
+
+ .mouth{
+   stroke-linejoin: round;
+   stroke-linecap: round;
+   stroke-width: 2px;
+ }
+
+ .tongue{
+   font-family: "Arial";
+   font-weight: bold;
+   font-style: oblique;
+   font-size: 12px;
+ }

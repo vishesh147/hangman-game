@@ -1,0 +1,60 @@
+.letterbutton{
+    position: relative;
+    display: inline-block;
+    margin: 3px;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(180deg, #282828, #202020);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 
+                0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.letterbutton::before{
+    content: attr(value);
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 3px;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+    bottom: 7px;
+    right: 6px;
+    background: linear-gradient(90deg, #232323, #4a4a4a);
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.25), 10px, 5px, 10px, rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-top: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+}
+
+.keyboard{
+    grid-row: 3;
+    padding-left: 20px;
+    align-items: center;
+    background-color: rgba(37, 37, 37, 0);
+    width: 100%;
+    height: fit-content;
+    min-width: fit-content;
+    max-width: 100%;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-width: fit-content;
+    height: auto;
+}
+
+.row2 {
+    margin-left: 15px;
+}
+
+.row3{
+    margin-left: 40px;
+}

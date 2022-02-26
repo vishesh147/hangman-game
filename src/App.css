@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.word{
+    grid-row: 2;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    min-width: fit-content;
+    min-height: fit-content;
+    font-size: larger;
+}
+
+.uscore, .letter{
+    color: aliceblue;
+    font-family: Verdana;
+    font-weight: bold;
+    margin : 5px;
+    display: inline-flex;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2em;
+}
+
+
+.grid{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    row-gap: 0;
+    min-width: fit-content;
+    min-height: fit-content;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(29, 29, 29);
+}
